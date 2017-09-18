@@ -1,0 +1,115 @@
+<html>
+  <head>
+    <title> TKYALLEIR </title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body style="background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(0,0,0,1) 100%),  url(https://static.pexels.com/photos/110854/pexels-photo-110854.jpeg) no-repeat center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;">
+    <header>
+      <a href="index.html">
+        <div id ="logo">T &#8734<br/>Y</div>
+      </a>
+      <div id="top-nav">
+        <a href="about.html">About</a>
+        <a href="#work">Work</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </header>
+
+    <div class="jumbo">
+      <h1>Welcome to My Portfolio</h1>
+    </div>
+
+    <div id="work" class="work">
+      <div class="box" style="background: url(https://hostpapa.blog/blog/wp-content/uploads/2017/02/5-signs.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;">
+        <a href="../tyflix/index.html">
+          <div class="hoverBox">
+            <h3>Project 1</h3>
+            <h5>Web Design</h5>
+          </div>
+        </a>
+      </div>
+      <div class="box" style="background: url(https://www.rd.com/wp-content/uploads/sites/2/2016/09/04_suprising_uses_banana_polish_FotografiaBasica.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;">
+        <div class="hoverBox">
+          <h3>Project 2</h3>
+          <h5>Web Design</h5>
+        </div>
+      </div>
+      <div class="box" style="background: url(https://www.atlasandboots.com/wp-content/uploads/2015/09/Non-technical-mountains-whitney.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;">
+        <div class="hoverBox">
+          <h3>Project 3</h3>
+          <h5>App</h5>
+        </div>
+      </div>
+      <div class="box" style="background: url(http://www.bhmpics.com/thumbs/fitz_roy_mountain-t3.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;">
+        <div class="hoverBox">
+          <h3>Project 4</h3>
+          <h5>Education</h5>
+        </div>
+      </div>
+      <div class="box" style="background: url(http://internetsafety.trendmicro.com/wp-content/uploads/2016/11/hackerimage-for-blog.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;">
+        <div class="hoverBox">
+          <h3>Project 5</h3>
+          <h5>And another thing!</h5>
+        </div>
+      </div>
+      <div class="box" style="background: url(https://image.spreadshirtmedia.com/image-server/v1/mp/compositions/P1005141191MPC1008730686/views/1,width=300,height=300,appearanceId=1,backgroundColor=E8E8E8,version=1472100430/bass-clef-musical-symbol-t-shirt-women-whiteblac-womens-premium-t-shirt.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;">
+        <div class="hoverBox">
+          <h3>Project 6</h3>
+          <h5>Philosophy</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-container">
+      <div class="modal">
+        <img src="../pictures/pict0276_1.jpg">
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+
+        // $('body').css('background', '#fff');
+
+        $('.box').click(function(){
+          $('.modal-container').addClass('active');
+        });
+
+        $('.modal').click(function(){
+          $('.modal-container').removeClass('active');
+        });
+
+      })
+    </script>
+  </body>
+</html>
