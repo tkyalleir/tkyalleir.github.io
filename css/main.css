@@ -65,6 +65,7 @@ header{
   padding: 5%;
   text-align: center;
 }
+
 .work .box{
   display: inline-block;
   background: #fff;
@@ -99,7 +100,15 @@ header{
   margin-bottom: 3%;
 }
 
-.work .box .hoverbox h5{
+h3{
+  color: white;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+
+h5{
   color: yellow;
   font-family: sans-serif;
 }
