@@ -27,7 +27,8 @@ header.scroll{
   float: left;
   display: inline-block;
   padding: 20 2.5%;
-  margin-right: 25px;
+  margin-left: 2.5%;
+  margin-top: 1%;
   font-size: 30px;
   font-weight: 700;
   color: red;
