@@ -4,13 +4,19 @@ body{
 }
 
 #header{
-  background: rgba(0, 0, 0, .8);
+  background: rgba(0, 0, 0, .2);
   color: white;
   overflow: auto;
   position: fixed;
   width: 100%;
   z-index: 99;
 }
+
+header.scroll{
+
+  background: rgba(0, 0, 0, .8);
+}
+
 #header a{
   text-decoration: none;
 }
