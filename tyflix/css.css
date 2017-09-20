@@ -66,7 +66,7 @@ body{
   color: yellow;
 }
 #largeImage{
-  padding: 125px 2.5%;
+  padding: 10% 2.5%;
   background: -webkit-linear-gradient(45deg, rgba(94,160,219,0) 0%,rgba(2,80,249,0.4) 100%), url(https://www.enviroaccounting.com/TahoeTMDL/FileResource/GetFileResourceForProgram/2dbee84f-5583-469b-b1fd-594b2c720e15) no-repeat right center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -124,10 +124,12 @@ body{
   background: black;
 }
 .row{
+  padding: 4% 0;
+  margin: -4% 0;
   font-size: 0;
   width: 100%;
   white-space: nowrap;
-  overflow: scroll;
+  overflow: auto;
 }
 #videoSection h4{
   font-size: 20px;
@@ -139,18 +141,20 @@ body{
 .videoBoxes{
   display: inline-block;
   background: red;
-  width: 250px;
-  height: 125px;
+  width: 20%;
+  height: 120px;
   font-size: 16px;
   margin: 0.5% 0.5% 0.5% 2.5%;
-  padding: 5px;
+  padding: 2%;
   position: relative;
   white-space: normal;
+  transition: all .2s ease-in-out;
 }
 .videoBoxes h4{
-  margin: 0;
+  margin-top: 0;
   padding: 0;
   color: white;
+  visibility: hidden;
 }
 .videoBoxes p{
   color: orange;
@@ -158,6 +162,19 @@ body{
   font-weight: 600;
   position: absolute;
   bottom: 0;
+  visibility: hidden;
+}
+.videoBoxes:hover{
+        margin: 0 5% 0 7%;
+        transform: scale(1.5);
+}
+#videoSection .videoBoxes:hover h4{
+  visibility: visible;
+  margin: -8%;
+}
+.videoBoxes:hover p{
+  visibility: visible;
+  margin-left: -5%;
 }
 .video1{
   background: url(https://upload.wikimedia.org/wikipedia/commons/f/fc/North_face.jpg);
@@ -181,28 +198,28 @@ body{
     background-size: cover;
 }
 .video4{
-  background: url(https://virtualpiano.net/wp-content/uploads/2016/04/VirtualPiano.jpg) no-repeat right center;
+  background: url(https://upload.wikimedia.org/wikipedia/en/9/94/Pink_Floyd_The_Wall.jpg) no-repeat right center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 .video5{
-  background: url(https://static.pexels.com/photos/36764/marguerite-daisy-beautiful-beauty.jpg) no-repeat right center;
+  background: url(https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Piposter.jpg/220px-Piposter.jpg) no-repeat right center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 .video6{
-  background: url(https://media0ch-a.akamaihd.net/98/56/d372652eff6d3145861c497c1b8ef1bc.jpg);
+  background: url(https://images-na.ssl-images-amazon.com/images/M/MV5BZWJhOGFiZWMtYTY5Ni00NGU1LWE5OWItNzA5NThkNWUwYzc4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UY268_CR3,0,182,268_AL_.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 .video7{
-  background: url(https://www.nyfa.edu/student-resources/wp-content/uploads/2014/09/Vintage-Movie-Poster-Bond-Goldfinger-1600-x-1117-1024x714.jpg);
+  background: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMzcyMjZmNjctNGNhMS00ZmQxLWFkNzQtYTIxYjVkYmU1NmNmXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY1200_CR88,0,630,1200_AL_.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -216,14 +233,35 @@ body{
     background-size: cover;
 }
 .video9{
-  background: url(http://img.moviepostershop.com/dumb-and-dumber-movie-poster-1994-1020191993.jpg) no-repeat right center;
+  background: url(https://www.nbc.com/sites/nbcunbc/files/files/styles/640x360/public/2013_1210_Community_Show_KeyArt_1920x1080_CA_0.jpg?itok=g4DQmC_2) no-repeat right center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 .video10{
-  background: url(http://img.moviepostershop.com/pi-movie-poster-1998-1020474533.jpg) no-repeat right center;
+  background: url(https://upload.wikimedia.org/wikipedia/en/6/64/Movie_poster_Anchorman_The_Legend_of_Ron_Burgundy.jpg) no-repeat right center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.video11{
+  background: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTk3Mjk5MzI3OF5BMl5BanBnXkFtZTcwMTY4MzcyNA@@._V1_UY1200_CR85,0,630,1200_AL_.jpg) no-repeat right center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.video12{
+  background: url(http://img.moviepostershop.com/dumb-and-dumber-movie-poster-1994-1020191993.jpg) no-repeat right center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.video13{
+  background: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMjE2OTc3OTk2M15BMl5BanBnXkFtZTgwMjg2NjIyMDE@._V1_UY1200_CR90,0,630,1200_AL_.jpg) no-repeat right center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
