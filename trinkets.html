@@ -1,6 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <style>
+    .main-list {
+      text-align: center;
+      padding: 0 10%;
+    }
+    .main-list a {
+      text-decoration: none;
+      font-size: 30px;
+      background-color: red;
+      padding: 10px 20px;
+      margin: 10px;
+      border-radius: 20px;
+      display: inline-block;
+    }
+    .main-list a:hover {
+      background-color: green;
+    }
+    </style>
+
     <title> TKYALLEIR </title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -25,30 +44,12 @@ background-size: cover;">
       <h1 style="color: yellow">Python Trinkets</h1>
     </div>
 
-    <div style="text-align: center">
-      <div style="width: 80%; display: inline-block; margin-bottom: 10%;">
-        <iframe src="https://trinket.io/embed/python/569c1a2eac?outputOnly=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-      </div>
-    </div>
-    <div style="text-align: center">
-      <div style="width: 80%; display: inline-block; margin-bottom: 10%;">
-        <iframe src="https://trinket.io/embed/python/b814db96e3?outputOnly=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-      </div>
-    </div>
-    <div style="text-align: center">
-      <div style="width: 80%; display: inline-block; margin-bottom: 10%;">
-        <iframe src="https://trinket.io/embed/python/c2ad9dcd91?outputOnly=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-      </div>
-    </div>
-    <div style="text-align: center">
-      <div style="width: 80%; display: inline-block; margin-bottom: 10%;">
-        <iframe src="https://trinket.io/embed/python/e8a6d2c6c3?outputOnly=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-      </div>
-    </div>
-    <div style="text-align: center">
-      <div style="width: 80%; display: inline-block; margin-bottom: 10%;">
-        <iframe src="https://trinket.io/embed/python/e0dab7a129?outputOnly=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-      </div>
+    <div class="main-list">
+      <a href="trinkets/battleship.html">Battleship</a>
+      <a href="trinkets/numberguess.html">Number Guess</a>
+      <a href="trinkets/diceroller.html">Dice Roller</a>
+      <a href="trinkets/rockpaperscissors.html">Rock Paper Scissors</a>
+      <a href="trinkets/turtleart.html">Turtle Art</a>
     </div>
   </body>
 </html>
