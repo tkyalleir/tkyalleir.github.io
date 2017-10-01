@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700');
 
+@import url('https://fonts.googleapis.com/css?family=Fontdiner+Swanky');
+
+@import url('https://fonts.googleapis.com/css?family=Atomic+Age');
+
 body{
   background: #3AFFD7;
 }
@@ -46,11 +50,15 @@ header{
 }
 
 .jumbo h1{
-  font-family: "Cabin Sketch", cursive;
   text-align: center;
   color: #E88800;
   font-size: 50px;
   padding: 10%;
+  text-shadow: 0 0 1em #8F7, -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: 'Fontdiner Swanky', cursive;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke:3px blue;
+
 }
 
 .jumbo:hover
