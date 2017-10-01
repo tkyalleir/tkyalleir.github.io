@@ -61,12 +61,12 @@ header{
         animation-iteration-count: 1;
 }
 
-.work{
+.projects{
   padding: 5%;
   text-align: center;
 }
 
-.work .box{
+.projects .box{
   display: inline-block;
   background: #fff;
   width: 29%;
@@ -75,7 +75,7 @@ header{
   overflow: hidden;
 }
 
-.work .box .hoverBox{
+.projects .box .hoverBox{
   background: rgba(48, 57, 92, 0.8);
   position: relative;
   bottom: -100%;
@@ -87,12 +87,12 @@ header{
   cursor: pointer;
 }
 
-.work .box:hover .hoverBox{
+.projects .box:hover .hoverBox{
   bottom: 0;
   opacity: 1;
  }
 
-.work .box .hoverbox h3{
+.projects .box .hoverbox h3{
   color: white;
   font-size: 22px;
   font-family: sans-serif;
