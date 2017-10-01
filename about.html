@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title> TY&#8734TY </title>
+    <title> T&#8734Y </title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
 
@@ -33,13 +33,20 @@
     }
 
     #big-logo {
-      margin: -8%;
+      margin: -10%;
+      white-space: nowrap;
+    }
+
+    .upsidedown {
+      display: inline-block;
+      -webkit-transform: rotateX(180deg);
+      transform: rotateX(180deg);
     }
 
     #big-logo:hover {
       color: green !important;
       -webkit-animation: bounce 0.75s infinite;
-      font-size: 2000%;
+      font-size: 1250%;
     }
 
     </style>
@@ -63,7 +70,7 @@ background-size: cover;">
     </header>
 
     <div class="jumbo">
-      <h1 id="big-logo">TY&#8734TY</h1>
+      <h1 id="big-logo"><span class="upsidedown">Y</span><br/>T &#8734 <span class="upsidedown">T</span><br/>Y</h1>
     </div>
 
   </body>
