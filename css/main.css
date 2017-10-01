@@ -13,6 +13,24 @@ header{
   font-family: 'Cabin Sketch', cursive;
 }
 
+.upsidedown {
+  display: inline-block;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.leftfacing {
+  display: inline-block;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.rightfacing {
+  display: inline-block;
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
 #logo{
   text-align: center;
   font-size: 30px;
@@ -29,6 +47,7 @@ header{
         -webkit-transform: scale(1.3);
         -ms-transform: scale(1.3);
         transform: scale(1.3);
+        font-weight: 900;
 }
 
 #top-nav{
