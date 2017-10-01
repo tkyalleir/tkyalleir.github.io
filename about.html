@@ -39,8 +39,20 @@
 
     .upsidedown {
       display: inline-block;
-      -webkit-transform: rotateX(180deg);
-      transform: rotateX(180deg);
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg);
+    }
+
+    .leftfacing {
+      display: inline-block;
+      -webkit-transform: rotate(90deg);
+      transform: rotate(90deg);
+    }
+
+    .rightfacing {
+      display: inline-block;
+      -webkit-transform: rotate(270deg);
+      transform: rotate(270deg);
     }
 
     #big-logo:hover {
@@ -73,7 +85,7 @@ background-size: cover;">
     </header>
 
     <div class="jumbo">
-      <h1 id="big-logo"><span class="upsidedown">Y</span><br/>T &#8734 <span class="upsidedown">T</span><br/>Y</h1>
+      <h1 id="big-logo"><span class="upsidedown">Y</span><br/><span class="leftfacing">T</span> &#8734 <span class="rightfacing">T</span><br/>Y</h1>
     </div>
 
   </body>
