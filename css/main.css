@@ -13,6 +13,13 @@ header{
   font-family: 'Cabin Sketch', cursive;
 }
 
+footer{
+  text-align: center;
+  color: white;
+  font-size: x-small;
+  font-family: sans-serif;
+  padding: 10px;
+}
 .upsidedown {
   display: inline-block;
   -webkit-transform: rotate(180deg);
