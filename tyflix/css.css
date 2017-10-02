@@ -67,7 +67,7 @@ body{
 }
 #largeImage{
   padding: 10% 2.5%;
-  background: -webkit-linear-gradient(45deg, rgba(94,160,219,0) 0%,rgba(2,80,249,0.4) 100%), url(https://www.enviroaccounting.com/TahoeTMDL/FileResource/GetFileResourceForProgram/2dbee84f-5583-469b-b1fd-594b2c720e15) no-repeat right center;
+  background: -webkit-linear-gradient(45deg, rgba(94,160,219,0) 0%,rgba(2,80,249,0.4) 100%), url(../pictures/tahoepic) no-repeat right center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
