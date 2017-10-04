@@ -8,18 +8,25 @@
 
 body{
   background: #3AFFD7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 header{
   font-family: 'Cabin Sketch', cursive;
 }
 
 footer{
+  width: 100%;
+  bottom: 0;
+  clear: both;
   text-align: center;
   color: white;
   font-size: x-small;
   font-family: sans-serif;
   padding: 10px;
 }
+
 .upsidedown {
   display: inline-block;
   -webkit-transform: rotate(180deg);
@@ -100,6 +107,7 @@ footer{
 .projects{
   padding: 5%;
   text-align: center;
+  flex: 1;
 }
 
 .projects .box{
