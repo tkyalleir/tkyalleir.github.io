@@ -11,8 +11,10 @@ body{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
 header{
+  width: 100%;
   font-family: 'Cabin Sketch', cursive;
 }
 
