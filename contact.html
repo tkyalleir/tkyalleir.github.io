@@ -1,97 +1,39 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <title> TKYALLEIR </title>
+    <title> TY&infin;TY </title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <style>
+    .jumbo:hover {
+      cursor: pointer;
+    }
+    </style>
   </head>
-  <body style="background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(0,0,0,1) 100%),  url(https://static.pexels.com/photos/110854/pexels-photo-110854.jpeg) no-repeat center center;
+  <body style="background: url(pictures/IMG_4129.JPG) no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;">
-    <header>
+    <header style="background: rgba(0, 0, 0, .4);">
       <a href="index.html">
-        <div id ="logo">T &#8734<br/>Y</div>
+        <div id ="logo">T &infin;<br/>Y</div>
       </a>
       <div id="top-nav">
         <a href="about.html">About</a>
-        <a href="#work">Work</a>
+        <a href="index.html#projects">Projects</a>
         <a href="contact.html">Contact</a>
       </div>
     </header>
 
     <div class="jumbo">
-      <h1>Welcome to My Portfolio</h1>
-    </div>
-
-    <div id="work" class="work">
-      <div class="box" style="background: url(https://hostpapa.blog/blog/wp-content/uploads/2017/02/5-signs.png) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;">
-        <a href="../tyflix/index.html">
-          <div class="hoverBox">
-            <h3>Project 1</h3>
-            <h5>Web Design</h5>
-          </div>
-        </a>
-      </div>
-      <div class="box" style="background: url(https://www.rd.com/wp-content/uploads/sites/2/2016/09/04_suprising_uses_banana_polish_FotografiaBasica.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;">
-        <div class="hoverBox">
-          <h3>Project 2</h3>
-          <h5>Web Design</h5>
-        </div>
-      </div>
-      <div class="box" style="background: url(https://www.atlasandboots.com/wp-content/uploads/2015/09/Non-technical-mountains-whitney.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;">
-        <div class="hoverBox">
-          <h3>Project 3</h3>
-          <h5>App</h5>
-        </div>
-      </div>
-      <div class="box" style="background: url(http://www.bhmpics.com/thumbs/fitz_roy_mountain-t3.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;">
-        <div class="hoverBox">
-          <h3>Project 4</h3>
-          <h5>Education</h5>
-        </div>
-      </div>
-      <div class="box" style="background: url(http://internetsafety.trendmicro.com/wp-content/uploads/2016/11/hackerimage-for-blog.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;">
-        <div class="hoverBox">
-          <h3>Project 5</h3>
-          <h5>And another thing!</h5>
-        </div>
-      </div>
-      <div class="box" style="background: url(https://image.spreadshirtmedia.com/image-server/v1/mp/compositions/P1005141191MPC1008730686/views/1,width=300,height=300,appearanceId=1,backgroundColor=E8E8E8,version=1472100430/bass-clef-musical-symbol-t-shirt-women-whiteblac-womens-premium-t-shirt.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;">
-        <div class="hoverBox">
-          <h3>Project 6</h3>
-          <h5>Philosophy</h5>
-        </div>
-      </div>
+      <h1 style="white-space: pre-wrap; line-height: 2em">tkyalleir<br /><span style="white-space: pre;">(<span style="writing-mode: vertical-rl; position:relative; top: 5px; margin-right: 10px;">at</span>)</span>  gmail<br /><span style="white-space: pre;">(<span style="writing-mode: vertical-rl; position:relative; top: 20px; margin: 0 10px 0 5px;">dot</span>)</span>  com</h1>
     </div>
 
     <div class="modal-container">
       <div class="modal">
-        <img src="../pictures/pict0276_1.jpg">
+        <img src="pictures/PICT0276_1.JPG">
       </div>
     </div>
 
@@ -101,7 +43,7 @@ background-size: cover;">
 
         // $('body').css('background', '#fff');
 
-        $('.box').click(function(){
+        $('h1').click(function(){
           $('.modal-container').addClass('active');
         });
 
@@ -111,5 +53,6 @@ background-size: cover;">
 
       })
     </script>
+
   </body>
 </html>
