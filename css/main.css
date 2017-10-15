@@ -157,6 +157,7 @@ h3{
 h5{
   color: yellow;
   font-family: sans-serif;
+  display: flex;
 }
 
 .modal-container{
