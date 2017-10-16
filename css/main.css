@@ -138,11 +138,6 @@ footer{
   opacity: 1;
  }
 
- .projects .box:focus .hoverBox{
-   bottom: 0;
-   opacity: 1;
-  }
-
 .projects .box .hoverbox h3{
   color: white;
   font-size: 22px;
